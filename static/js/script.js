@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.sidenav').sidenav({edge:'right'});
     $('.collapsible').collapsible();
     $('.tooltipped').tooltip();
+    $('select').formSelect();
     $('.datepicker').datepicker({
       format: 'dd mmmm, yyyy',
       yearRange: 3,
@@ -22,4 +23,6 @@ $(document).ready(function(){
 //     var instances = M.Tooltip.init(elems, options);
 //     var elems = document.querySelectorAll('.datepicker');
 //     var instances = M.Datepicker.init(elems, options);
+//     var elems = document.querySelectorAll('select');
+//     var instances = M.FormSelect.init(elems, options);
 // });
