@@ -24,7 +24,7 @@
     </div>
     {% if tasks|length > 0 %}
         <ul class="collapsible">
-            {% if  session.user|lower == " " %}
+            {% if  session.user|lower == None %}
                 <h3><strong>Your tasks will appear here<strong><h3>
             {% else %}
 
