@@ -41,7 +41,6 @@
                                     <i class="fas fa-exclamation-circle light-blue-text text-lighten-2 tooltipped" 
                                         class="btn tooltipped" data-position="right" data-tooltip="URGENT!"></i>
                                 {% endif %}
-                            
                             </div>
                         </div>
                         <div class="collapsible-body">
@@ -50,8 +49,6 @@
                             <p><em>by: {{ task.created_by }}</em></p>
                         </div>
                     </li>
-                {% else %}
-                    <h3><strong>Your Tasks will appear here<strong><h3>
                 {% endif %}
             {% endfor %}
         </ul>
